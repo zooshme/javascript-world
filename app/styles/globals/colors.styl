@@ -1,0 +1,20 @@
+$white = #fff;
+$black = #000;
+$paper = #f2f2f2;
+$green = #9ada15;
+$blue = #4799f5;
+
+main-gradient() {
+  background: linear-gradient(-15deg, $green, $blue);
+  background-attachment: fixed;
+  backgrond-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+body {
+  main-gradient();
+}
+
+.page .wrapper {
+  background-color: $paper;
+}

@@ -1,10 +1,17 @@
 /*jshint node:true*/
 /* global require, module */
 var EmberApp = require('ember-cli/lib/broccoli/ember-app');
+var nib = require('nib');
+var jeet = require('jeet');
+var typographic = require('typographic');
+//var ink = require('ink');
 
 module.exports = function(defaults) {
   var app = new EmberApp(defaults, {
-    // Add options here
+    stylusOptions: {
+      use: [nib(), typographic()],
+      includePaths: ['./node_modules/jeet']
+    }
   });
 
   // Use `app.import` to add additional libraries to the generated

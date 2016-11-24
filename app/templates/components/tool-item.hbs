@@ -1,0 +1,21 @@
+<h3 class="tool-item--name">{{tool.name}}</h3>
+<ul class="tool-item--meta">
+  <li>
+    <strong>Type</strong> 
+    <span>{{tool.type}}</span>
+  </li>
+  {{#if tool.initial_commit}}
+    <li>
+      <strong>Initial Commit</strong> 
+      <span>{{moment-format tool.initial_commit 'DD MMM YYYY'}}</span>
+    </li>
+  {{/if}}
+  {{#if tool.released}}
+    <li>
+      <strong>Release Date</strong> 
+      <span>{{moment-format tool.released 'DD MMM YYYY'}}</span>
+    </li>
+  {{/if}}
+</ul>
+<div class="tool-item--description">{{tool.description}}</div>
+{{#link-to "tools.show" tool class="btn"}}Read more{{/link-to}}

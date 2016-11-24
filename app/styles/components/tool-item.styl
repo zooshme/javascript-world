@@ -1,0 +1,50 @@
+.tool-item {
+  background-color: $white;
+  border-radius: 4px;
+  box-shadow: 0 7px 12px alpha($black, .03);
+  column(4/12, $gutter: 4, $cycle: 3);
+  height: 500px;
+  list-style-type: none;
+  margin-bottom: 48px;
+  overflow: hidden;
+  padding: 30px 42px 50px;
+  text-overflow: ellipsis;
+  
+  &--name {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 24px;
+  }
+  
+  &--meta {
+    margin-bottom: 24px;
+    
+    li {
+      margin-bottom: 18px;
+    }
+    
+    strong, span {
+      display: block;
+    }
+    
+    strong {
+      font-size: 10px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      line-height: 12px;
+    }
+    
+    span {
+      color: alpha($black, 0.5);
+    }
+  }
+  
+  &--description {
+    color: alpha($black, 0.5);
+    font-size: 16px;
+    line-height: 20px;
+    
+  }
+}
