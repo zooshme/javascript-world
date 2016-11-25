@@ -10,6 +10,8 @@ Router.map(function() {
   this.route('tools', function() {
     this.route('show', {path: '/:id'});
   });
+  this.route('courses');
+  this.route('news');
 });
 
 export default Router;

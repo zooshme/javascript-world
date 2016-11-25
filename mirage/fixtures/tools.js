@@ -45,6 +45,13 @@ export default [{
   description: "Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Maecenas sed diam eget risus varius blandit sit amet non magna."
 }, {
   id: 7,
+  name: "ES6",
+  type: "JavaScript",
+  active_development: true,
+  released: "June 2015",
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia bibendum nulla sed consectetur. Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum id ligula porta felis euismod semper. Donec sed odio dui."
+}, {
+  id: 8,
   name: "Aurelia",
   type: "MVC Framework",
   active_development: true,
@@ -52,21 +59,21 @@ export default [{
   released: "27 Jul 2016",
   description: "Nullam quis risus eget urna mollis ornare vel eu leo. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit."
 }, {
-  id: 8,
-  name: "ES6",
-  type: "JavaScript",
-  active_development: true,
-  released: "June 2015",
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia bibendum nulla sed consectetur. Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum id ligula porta felis euismod semper. Donec sed odio dui."
-}, {
   id: 9,
+  name: "Vue",
+  type: "View Layer Library",
+  active_development: true,
+  released: "27 Oct 2015",
+  description: "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam id dolor id nibh ultricies vehicula ut id elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur."
+}, {
+  id: 10,
   name: "ELM",
   type: "Typed Functional Programming Language",
   active_development: true,
   initial_commit: "28 May 2012",
   description: "Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh ultricies vehicula ut id elit."
 }, {
-  id: 10,
+  id: 11,
   name: "ES7",
   type: "JavaScript",
   active_development: true,
