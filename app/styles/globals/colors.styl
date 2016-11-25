@@ -12,9 +12,20 @@ main-gradient() {
 }
 
 body {
-  main-gradient();
+  background-color: $white;
+
+  &:before {
+    content: "";
+    display: block;
+    height: 400px;
+    width: 100%;
+    main-gradient();
+    transform: rotate(-10deg);
+    position: absolute;
+    left: -50%;
+  }
 }
 
 .page .wrapper {
-  background-color: $paper;
+  background-color: $white;
 }
